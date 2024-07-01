@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Shopping List</title>
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <h1>SHOPPING LIST</h1>
+    <div class="item-form-container">
+      <form id="item-form">
+        <div>
+          <label class="view" for="item-name">Item</label><input class="item-input"
+                                                type="text"
+                                                id="item-name"
+                                                name="item-name">
+        </div>
+        <div>
+           <label class="view" for="item-amount">Amount</label><input class="amount-input"
+                                                  type="number"
+                                                  id="item-amount"
+                                                  name="item-amount">
+        </div>
+        <button class="add-item" type="submit">Add Item</button>
+      </form>
+    </div>
+    <div class="shopping-list-container">
+       <ul id="shopping-list"></ul>
+    </div>
+  </body>
+</html>
