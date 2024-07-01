@@ -1,0 +1,42 @@
+.item-input {
+   margin-bottom: 1em;
+   margin-left: 5px;
+   width: 12.5em;
+   background-color: lightgrey;
+}
+
+.amount-input {
+   margin-bottom: 2em;
+   margin-left: 5px;
+   background-color: lightgrey;
+}
+
+.add-item {
+   padding: 1em;
+   margin-left: 75px;
+   background-color: green;
+   font-weight:bold;
+   font-size: 20px;
+   font-family: Times New Roman, serif;
+   width: 8em;
+   color: white;
+   border-radius: 20px;
+}
+
+.view {
+margin-left: 30px;
+}
+
+.delete-button {
+   padding: 12px;
+   margin-bottom: 12px;
+   background-color: red;
+   font-weight:bold;
+   font-size: 14px;
+   font-family: Times New Roman, serif;
+   width: 100px;
+   color: white;
+   border-radius: 12px;
+}
+
+
